@@ -6,26 +6,30 @@ __pycache__/
 # Virtual environments
 .venv/
 venv/
+env/
 
-# Environment variables / secrets
+# Environment variables
 .env
-.env.*
 
-# Runtime databases
-data/
-chroma_db/
-*.db
-*.sqlite
-*.sqlite3
+# Logs
+*.log
 
-# Uploaded audio/video
+# Uploaded/generated audio
 uploads/*
+!uploads/.gitkeep
 
 # Generated outputs
 outputs/*
+!outputs/.gitkeep
 
-# Jupyter
+# Generated data / vector databases
+data/*
+!data/.gitkeep
+chroma_db/
+
+# Jupyter / Colab
 .ipynb_checkpoints/
 
-# Archives
-*.zip
+# OS files
+.DS_Store
+Thumbs.db
