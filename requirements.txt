@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+openai
+faster-whisper
+pydub
+requests
+yt-dlp
+sqlalchemy
+chromadb
+sentence-transformers
+numpy
+pandas

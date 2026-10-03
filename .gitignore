@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Runtime databases
+data/
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded audio/video
+uploads/*
+
+# Generated outputs
+outputs/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archives
+*.zip
